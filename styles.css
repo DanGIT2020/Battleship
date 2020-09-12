@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    
+  }
+
+button:focus { outline: none; }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: Roboto;
+    background-color: rgb(85, 152, 156);
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+#myOutput {
+    color:white;
+    font-family: Roboto;
+    font-size: 160%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: lightslategray;
+    margin: 0;
+}
+
+button {
+    font-size: 1.1em;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 135px;
+    background: rgb(85, 152, 156);
+    color: white;
+    border: 0;
+    padding: 1em;
+}
+#myInput {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
