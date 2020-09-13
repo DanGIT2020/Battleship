@@ -8,7 +8,7 @@ var isSunk = false;
 
 while (isSunk == false) {
     guess = prompt("Guess where my battleship is: (enter a number 0 - 6)");
-    if (guess < 0 || guess > 6 || guess == null) {
+    if (guess < 0 || guess > 6 || guess == null || guess === "") {
         alert ("Please enter a valid cell number (enter a number 0 - 6)");
     } else{
         guesses ++;
