@@ -1,15 +1,22 @@
-var location1 = 2;
-var location2 = 3;
-var location3 = 4;
+var location1;
+var location2;
+var location3;
 var guess;
 var hits = 0;
 var guesses = 0;
 var isSunk = false;
 
+var randomLoc = Math.floor(Math.random() * 7);
+
+var location1 = randomLoc;
+var location2 = location1+1;
+var location3 = location2+1;
+
+
 while (isSunk == false) {
-    guess = prompt("Guess where my battleship is: (enter a number 0 - 6)");
-    if (guess < 0 || guess > 6 || guess == null || guess === "") {
-        alert ("Please enter a valid cell number (enter a number 0 - 6)");
+    guess = prompt("Guess where my battleship is: (enter a number 0 - 9)");
+    if (guess < 0 || guess > 9 || guess == null || guess === "") {
+        alert ("Please enter a valid cell number (enter a number 0 - 9)");
     } else{
         guesses ++;
 
